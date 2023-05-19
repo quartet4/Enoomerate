@@ -1,0 +1,99 @@
+:root {
+  --primary-color: #a5ecd7;
+  --secondary-color: #9547e8;
+  --dark-color: #1f1f1f;
+  --white-color: #ededed;
+}
+
+.fab {
+  color: #a5ecd7;
+}
+
+main > .container {
+  padding: 60px 15px 0;
+  margin-bottom: 5rem;
+}
+.sticky-footer {
+  position: sticky;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
+
+body {
+  background: #000000; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to left,
+    #434343,
+    #000000
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to left,
+    #434343,
+    #000000
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  color: var(--white-color);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: var(--primary-color);
+}
+
+a > .social {
+  opacity: 0.3;
+}
+
+a > .social:hover {
+  opacity: 1;
+}
+
+nav {
+  background: rgb(165, 236, 215);
+  background: -moz-linear-gradient(
+    90deg,
+    rgba(165, 236, 215, 1) 0%,
+    rgba(100, 177, 154, 1) 75%,
+    rgba(78, 138, 120, 1) 100%
+  );
+  background: -webkit-linear-gradient(
+    90deg,
+    rgba(165, 236, 215, 1) 0%,
+    rgba(100, 177, 154, 1) 75%,
+    rgba(78, 138, 120, 1) 100%
+  );
+  background: linear-gradient(
+    90deg,
+    rgba(165, 236, 215, 1) 0%,
+    rgba(100, 177, 154, 1) 75%,
+    rgba(78, 138, 120, 1) 100%
+  );
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#a5ecd7",endColorstr="#4e8a78",GradientType=1);
+}
+
+.navbar-brand {
+  color: var(--dark-color);
+}
+
+.nav-link {
+  color: var(--dark-color);
+}
+
+.navbar-toggler-icon {
+  background-color: var(--dark-color);
+}
+
+.checklist > li i {
+  color: var(--secondary-color);
+}
+
+code[class*="language-"],
+pre[class*="language-"] {
+  white-space: pre-wrap;
+  word-break: break-all;
+  word-wrap: break-word;
+}
